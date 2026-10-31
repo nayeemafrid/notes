@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"85b5707e141782c7","type":"text","text":"[[Machine Learning|Types of ML system]]","x":-360,"y":-90,"width":185,"height":50,"color":"6"},
+		{"id":"f6d129d4188b45ae","type":"text","text":"Generative AI","x":-60,"y":80,"width":220,"height":50,"color":"5"},
+		{"id":"7652c75db6dae20e","type":"text","text":"Reinforcement Learning","x":-60,"y":-40,"width":220,"height":50,"color":"5"},
+		{"id":"02f8cff22fc949f1","type":"text","text":"[[Supervised Learning]]","x":-60,"y":-300,"width":220,"height":50,"color":"5"},
+		{"id":"117ff6d11a4923ea","type":"text","text":"Unsupervised Learning","x":-60,"y":-180,"width":220,"height":50,"color":"5"},
+		{"id":"e6a042ce89dc5f9e","type":"text","text":"[[Supervised Learning#Regression|Regression]]","x":260,"y":-350,"width":140,"height":50,"color":"5"},
+		{"id":"f0f0f197c6b0d92f","type":"text","text":"Classification","x":260,"y":-230,"width":140,"height":50,"color":"5"},
+		{"id":"df1186f3565f6624","type":"text","text":"Linear Regression","x":600,"y":-480,"width":180,"height":50,"color":"5"},
+		{"id":"264d7fe14b23db88","type":"text","text":"Linear Regression","x":600,"y":-180,"width":180,"height":50,"color":"5"}
+	],
+	"edges":[
+		{"id":"e97e2b4c2f1247b9","fromNode":"85b5707e141782c7","fromSide":"right","toNode":"02f8cff22fc949f1","toSide":"left"},
+		{"id":"52a0d467726f1782","fromNode":"85b5707e141782c7","fromSide":"right","toNode":"117ff6d11a4923ea","toSide":"left"},
+		{"id":"f324405cc573ba44","fromNode":"85b5707e141782c7","fromSide":"right","toNode":"7652c75db6dae20e","toSide":"left"},
+		{"id":"804d6a2a2951caea","fromNode":"85b5707e141782c7","fromSide":"right","toNode":"f6d129d4188b45ae","toSide":"left"},
+		{"id":"47e0496eead1878f","fromNode":"02f8cff22fc949f1","fromSide":"right","toNode":"f0f0f197c6b0d92f","toSide":"left"},
+		{"id":"8f1cd980afe83c6b","fromNode":"02f8cff22fc949f1","fromSide":"right","toNode":"e6a042ce89dc5f9e","toSide":"left"},
+		{"id":"49f0b5ac4f6d1ed0","fromNode":"e6a042ce89dc5f9e","fromSide":"right","toNode":"df1186f3565f6624","toSide":"left","label":"Algorithm"},
+		{"id":"45d9a18a4d70fb3c","fromNode":"f0f0f197c6b0d92f","fromSide":"right","toNode":"264d7fe14b23db88","toSide":"left"}
+	]
+}

@@ -5,6 +5,7 @@
 - **Go back to parent folder:** `cd ..`
 - **Create a new folder:** `mkdir <foldername>`
 - **Create a new file:** `ni <filename.extension>`
+- **Check items in a folder:** `dir`
 
 #### 2. Remove Old GitHub Credentials from Windows
 
